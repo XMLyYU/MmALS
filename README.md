@@ -127,9 +127,9 @@ Main dependencies:
 
 ```
 python>=3.8
-pandas, numpy, scipy, scikit-learn, matplotlib, plotly, tqdm
-torch          # to load hidden_states-*.pt
-openpyxl       # to read exp_result/*.xlsx
-pyyaml         # to read mapie inference results
+pandas>=1.3.0,<3.0.0, numpy>=1.21.0,<2.0.0, scipy>=1.7.0,<2.0.0, scikit-learn>=1.0.0,<2.0.0, matplotlib>=3.4.0,<4.0.0, plotly>=5.0.0,<6.0.0, tqdm>=4.62.0,<5.0.0
+torch>=1.13.0,<3.0.0          # to load hidden_states-*.pt
+openpyxl>=3.0.10,<4.0.0       # to read exp_result/*.xlsx
+pyyaml>=6.0,<7.0              # to read mapie inference results
 ```
 
