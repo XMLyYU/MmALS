@@ -49,7 +49,7 @@ aldes/
             └── r1r2-fix0619.xlsx                      # final validated wet-lab tracking
         └── xtrimo_activity/                     # isolated model component details & reproducibility data
             ├── README.md                              # documentation for independent model validation
-            └── train_split_v12.csv                    # transparent sample-level train/val/test data splits
+            └── train_split_v12.csv                    # transparent sample-level train/val data splits
 ```
 
 ---
