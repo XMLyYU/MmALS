@@ -35,15 +35,21 @@ aldes/
     │
     └── data/                             # intermediate data, candidates and wet-lab results
         ├── data_expert_r1_dms.csv               # expert prior DMS (used to calibrate thresholds)
-        ├── data_ai_r{1,2}_all_scaned.csv        # MOO pool fully scored, per round (input)
+        ├── data_ai_r1_all_scaned.csv        # MOO pool fully scored, r1 (input)
+        ├── data_ai_r2_all_scaned.csv        # MOO pool fully scored, r2 (input)
         ├── data_ai_r3_all_scaned_seen_region.csv
         ├── data_ai_r3_moo_optimal_unseen_region.csv
         ├── data_ai_r3_moo_optimal_unseen_region_high_ac.csv
-        ├── candidates_ai_round{1,2}.csv         # final round-1/2 candidates sent to wet lab
+        ├── candidates_ai_round1.csv         # final round-1 candidates sent to wet lab
+        ├── candidates_ai_round2.csv         # final round-2 candidates sent to wet lab
         ├── candidates_ai_round3_batch1_seen_region.csv
         ├── candidates_ai_round3_batch2_unseen_region_w_ai_region1.csv
         ├── candidates_ai_round3_batch2_unseen_region_wo_ai.csv
         ├── exp_result/                          # raw / aggregated wet-lab data (xlsx, csv)
+            └── r1r2-fix0619.xlsx                      # final validated wet-lab tracking
+        └── xtrimo_activity/                     # isolated model component details & reproducibility data
+            ├── README.md                              # documentation for independent model validation
+            └── train_split_v12.csv                    # transparent sample-level train/val/test data splits
 ```
 
 ---
