@@ -10,8 +10,8 @@ The dataset is provided in a tabular format (e.g., CSV) containing information a
 | `wt_aa_seq` | String | The wild-type (WT) amino acid sequence. |
 | `mt_aa_seq` | String | The mutant (MT) amino acid sequence. |
 | `label` | Float | The mutation activity label (target variable for prediction). |
-| `v1_split` | String | Data split assignment for the V1 model (e.g., `train`, `val`, `test`, or left blank). |
-| `v2_split` | String | Data split assignment for the V2 model (e.g., `train`, `val`, `test`, or left blank). |
+| `v1_split` | String | Data split assignment for the V1 model (e.g., `train`, `val`, or left blank). |
+| `v2_split` | String | Data split assignment for the V2 model (e.g., `train`, `val`, or left blank). |
 | `msa_v1` | Float | The Multiple Sequence Alignment (MSA) ranking or score used in the V1 model. |
 | `msa_v2` | Float | The Multiple Sequence Alignment (MSA) ranking or score used in the V2 model. |
 
